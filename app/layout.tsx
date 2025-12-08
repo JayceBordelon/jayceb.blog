@@ -4,6 +4,8 @@ import "./globals.css";
 import { ThemeProvider } from "next-themes";
 import { BackgroundPaths } from "@/components/ui/shadcn-io/background-paths";
 import { Toaster } from "sonner";
+import { TooltipProvider } from "@radix-ui/react-tooltip";
+import Header from "@/components/header";
 
 
 export const metadata: Metadata = {
@@ -67,9 +69,12 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <ThemeProvider attribute="class" defaultTheme="system" enableSystem={true}>
+          <TooltipProvider>
+            <Header />
           {children}
           <BackgroundPaths/>
           <Toaster theme="system" richColors/>
+          </TooltipProvider>
         </ThemeProvider>
       </body>
     </html>

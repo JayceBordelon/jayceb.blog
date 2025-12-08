@@ -1,11 +1,9 @@
-import Header from "@/components/header";
-import HeroSection from "@/components/hero";
+import { BlogsLayout } from "@/components/blogs";
 
 export default function page() {
   return (
     <div>
-      <Header />
-      <HeroSection />
+      <BlogsLayout />
     </div>
   )
 }
