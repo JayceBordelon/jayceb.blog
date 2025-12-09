@@ -133,7 +133,7 @@ export default function HeroSection() {
 
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <Button  size="icon" asChild className="cursor-alias">
+                  <Button  size="icon" asChild className="cursor-pointer">
                     <Link href="https://github.com/JayceBordelon" target="_blank">
                       <IconBrandGithub className="h-4 w-4" />
                     </Link>
@@ -146,7 +146,7 @@ export default function HeroSection() {
 
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <Button  size="icon" asChild className="cursor-alias">
+                  <Button  size="icon" asChild className="cursor-pointer">
                     <Link href="https://linkedin.com/in/JayceBordelon" target="_blank">
                       <IconBrandLinkedin className="h-4 w-4" />
                     </Link>
@@ -159,7 +159,7 @@ export default function HeroSection() {
 
               <Tooltip>
                 <TooltipTrigger asChild>
-                  <Button  size="icon" asChild className="cursor-alias">
+                  <Button  size="icon" asChild className="cursor-pointer">
                     <Link href="https://jayceb.blog" target="_blank">
                       <IconWriting className="h-4 w-4" />
                     </Link>
