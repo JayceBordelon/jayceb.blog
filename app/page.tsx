@@ -8,7 +8,7 @@ export default function page() {
   return (
     <section  className="py-32">
       <div className="container mx-auto flex flex-col items-center gap-16 lg:px-16">
-        <div className="text-center">
+        <div className="text-center mx-4">
           <h2 className="mb-3 text-pretty text-3xl font-semibold md:mb-4 md:text-4xl lg:mb-6 lg:max-w-3xl lg:text-5xl">
             Blog Posts
           </h2>
