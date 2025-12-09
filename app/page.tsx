@@ -1,4 +1,4 @@
-import { BlogsLayout } from "@/components/blogs";
+import BlogsLayout from "@/components/blogs";
 
 export default function page() {
   return (
